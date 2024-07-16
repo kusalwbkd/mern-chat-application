@@ -43,6 +43,12 @@ const Login = () => {
       </h1>
 
       <form onSubmit={handleSubmit}>
+
+        <p className=' font-bold'>user name: user</p>
+        <p className='font-bold'>password: user1234</p>
+
+        <p className=' font-bold'>user name for account 2: user1</p>
+        <p className='font-bold'>password: user1234</p>
       <FormInput type={'text'} label={'Username or email'} value={values?.username} name={'username'} handleChange={handleChange}/>
       <FormInput type={'password'} label={'Password'} value={values?.password} name={'password'} handleChange={handleChange}/>
 
